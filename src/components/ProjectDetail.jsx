@@ -2,7 +2,7 @@
 import { useParams, useNavigate } from 'react-router-dom';// Add more images if available
 import Doctor_Appointment from '../assets/Doctor_Appointment.jpg';
 import Doc_ava from '../assets/Doctor_availability.jpg';
-import doc_dash from '../assets/Doctors_dashboard.jpg';
+import doc_dash from '../assets/Doctors_Dashboard.jpg';
 import patient1 from '../assets/Patient Portal 1.jpg';
 import patient2 from '../assets/Patient Portal 2.jpg';
 import pat_book from '../assets/patient_bookappointment.jpg';
