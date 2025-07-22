@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 // import Doctor_Main from '../assets/Doc Main.png';
 import crypto1 from '../assets/Crypto tracker .jpg';
 import project3 from '../assets/project 3.jpg';
-import doc_dash from '../assets/Doctors_dashboard.jpg';
+import doc_dash from '../assets/Doctors_Dashboard.jpg';
 import bakery from '../assets/Bakery main.jpg';
 import project5 from '../assets/project5.png';
 
