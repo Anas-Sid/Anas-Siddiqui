@@ -7,7 +7,7 @@ const IntroBanner = () => {
       <div className="hidden md:block absolute top-0 left-0 w-full h-full bg-[#0a0a0a] md:bg-[#1a1a1a] transform -skew-y-3 z-0"></div>
 
       {/* Content on top of skew */}
-      <div className="relative z-10 max-w-5xl mx-auto mt-8 sm:mt-0 md:mt-0">
+      <div className="relative z-10 max-w-5xl mx-auto mt-11 sm:-mt-4 md:mt-0">
         <div className="bg-white text-black inline-block px-4 py-1 mb-4 rounded-md font-semibold text-sm tracking-wide">
           IT Berries
         </div>
