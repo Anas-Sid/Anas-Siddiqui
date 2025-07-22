@@ -10,7 +10,7 @@ import crypto1 from '../assets/Crypto tracker .jpg';
 import crypto2 from '../assets/Crypto_Real time coin data.jpg';
 import searchbar from '../assets/Working Search bar.jpg';
 import medmatevedio from '../assets/Medmate.mp4';
-import bakeryvedio from '../assets/baker.mp4';
+import bakeryvedio from '../assets/Baker.mp4';
 import project5 from '../assets/project5.png';
 import project5_1 from '../assets/project5_1.png';
 import project5_2 from '../assets/project5_2.png';
