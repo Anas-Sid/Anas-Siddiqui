@@ -22,7 +22,7 @@ function Lighttheme() {
       <ExperienceTimeline />
       <Skills />
       <Portfolio />
-      <Contact />
+      
       <Footer />
       
     </>
