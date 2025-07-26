@@ -16,12 +16,12 @@ const Footer = () => {
         <a href="https://github.com/Anas-Sid" target="_blank" rel="noopener noreferrer">
           <FaGithub size={22} className="hover:text-gray-300" />
         </a>
-        <a href="https://www.linkedin.com/in/anssiddiqui/" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://www.linkedin.com/in/anssiddiqui/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={22} className="hover:text-gray-300" />
-        </a>
-        <a href="mailto:anas.siddiqui7707@gmail.com">
+        </a> */}
+        {/* <a href="mailto:anas.siddiqui7707@gmail.com">
           <FaEnvelope size={22} className="hover:text-gray-300" />
-        </a>
+        </a> */}
       </div>
 
       {/* Copyright */}
