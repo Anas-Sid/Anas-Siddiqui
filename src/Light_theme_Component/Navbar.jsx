@@ -31,27 +31,27 @@ const Navbar = () => {
           <Link to="about" smooth={true} duration={500} offset={-70} className="text-black hover:text-gray-300 cursor-pointer">
             About Me
           </Link>
-          <Link to="skills" smooth={true} duration={500} offset={-70} className="text-black hover:text-gray-300 cursor-pointer">
+          <Link to="skills" smooth={true} duration={500} offset={-70} className="text-white hover:text-gray-300 cursor-pointer">
             Skills
           </Link>
           <Link to="projects" smooth={true} duration={500} offset={-70} className="text-white hover:text-gray-300 cursor-pointer">
             Projects
           </Link>
-          <Link to="contact" smooth={true} duration={500} offset={-70} className="text-white hover:text-gray-300 cursor-pointer">
+          {/* <Link to="contact" smooth={true} duration={500} offset={-70} className="text-white hover:text-gray-300 cursor-pointer">
             Contact
-          </Link>
+          </Link> */}
         </div>
 
         {/* Desktop Contact Button */}
         <div className="hidden md:block">
           <Link
-            to="contact"
+            to="projects"
             smooth={true}
             duration={500}
             offset={-70}
             className="bg-white text-black px-8  py-2 rounded-2xl font-semibold hover:bg-gray-200 transition-all cursor-pointer mr-4"
             >
-            Contact Me
+            Projects
           </Link>
         </div>
 
@@ -92,9 +92,9 @@ const Navbar = () => {
                 <Link onClick={() => setMenuOpen(false)} to="projects" smooth={true} duration={500} offset={-70} className="text-white hover:text-gray-400">
                   Projects
                 </Link>
-                <Link onClick={() => setMenuOpen(false)} to="contact" smooth={true} duration={500} offset={-70} className="text-white hover:text-gray-400">
+                {/* <Link onClick={() => setMenuOpen(false)} to="contact" smooth={true} duration={500} offset={-70} className="text-white hover:text-gray-400">
                   Contact
-                </Link>
+                </Link> */}
               </div>
             </motion.div>
           )}
