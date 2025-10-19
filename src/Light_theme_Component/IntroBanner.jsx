@@ -12,7 +12,7 @@ const IntroBanner = () => {
           IT Berries
         </div>
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
-          Full Stack Developer Based in Pakistan
+          Full Stack Developer
         </h2>
         <p className="text-gray-300 md:w-[980px] md:-mr-[360px]">
           I thrive on building robust, scalable web applications from front to back. With a deep understanding of both client-side and server-side technologies, I turn ideas into complete, high-performance digital solutions.
