@@ -8,9 +8,8 @@ function App() {
     <Router>
       <Routes>
         {/* Redirect from / to /portfolio */}
-        <Route path="/" element={<Navigate to="/portfolio" replace />} />
+        <Route path="/" element={<Lighttheme />} />
         <Route path="/project/:id" element={<ProjectDetail />} />
-        <Route path="/portfolio" element={<Lighttheme />} />
       </Routes>
     </Router>
   );
