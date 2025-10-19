@@ -6,6 +6,10 @@ import Cooperandkid from '../assets/Cooperandkid.jpg';
 import Algorarose from '../assets/Algora.jpg';
 import myhomes from '../assets/myhomes.jpg';
 import health from '../assets/health.jpg';
+
+
+
+
 const projects = [
   {
     title: 'LA Highlights Tour Website',
