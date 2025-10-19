@@ -22,10 +22,6 @@ function Lighttheme() {
       <ExperienceTimeline />
       <Skills />
       <Portfolio />
-<<<<<<< HEAD
-=======
-      
->>>>>>> f4ea1b43bc1d999f2073d2e3e67aa79e56f5941d
       <Footer />
       
     </>
