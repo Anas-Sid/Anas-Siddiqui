@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import FullPortfolio from './pages/FullPortfolio';
 import ProjectDetail from './components/ProjectDetail';
 import LoaderPage from './pages/LoaderPage';
-import Lighttheme from './pages/lighttheme';
+import Lighttheme from './pages/Lighttheme';
 
 function App() {
   return (
