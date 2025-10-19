@@ -155,7 +155,7 @@ const ProjectDetail = () => {
     return () => clearTimeout(t);
   }, []);
 
-  if (!project) return <div className="min-h-screen flex items-center justify-center text-black bg-black text-white">Project not found</div>;
+  if (!project) return <div className="min-h-screen flex items-center justify-center text-black bg-black ">Project not found</div>;
 
   // Prefer showing a single screenshot (the first) — keeps layout clean and responsive
   const primary = project.screenshots && project.screenshots.length > 0 ? project.screenshots[0] : null;

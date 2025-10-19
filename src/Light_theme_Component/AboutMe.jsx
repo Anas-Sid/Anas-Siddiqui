@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaPaintBrush, FaCode, FaTools } from 'react-icons/fa';
-
 const services = [
   {
     icon: <FaPaintBrush size={28} />,
