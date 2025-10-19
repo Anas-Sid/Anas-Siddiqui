@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 // Add more images if availab
 import latour from '../assets/Latourimage.jpg';
 import Cooperandkid from '../assets/Cooperandkid.jpg';
-import Algorarose from '../assets/Algora.jpg';
+import Algorarose from '../assets/algora.jpg';
 import myhomes from '../assets/myhomes.jpg';
 import health from '../assets/health.jpg';
 
