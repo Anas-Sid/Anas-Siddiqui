@@ -1,47 +1,50 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-import crypto1 from '../assets/Crypto tracker .jpg';
-import project3 from '../assets/project 3.jpg';
-import doc_dash from '../assets/Doctors_dashboard.jpg';
-import bakery from '../assets/Bakery main.jpg';
-import project5 from '../assets/project5.png';
-
-
+import latour from '../assets/Latourimage.jpg';
+import Cooperandkid from '../assets/Cooperandkid.jpg';
+import Algorarose from '../assets/Algora.jpg';
+import myhomes from '../assets/myhomes.jpg';
+import health from '../assets/health.jpg';
 const projects = [
   {
-    title: 'Doctor Appointment Booking System',
+    title: 'LA Highlights Tour Website',
     description:
-      'A full-stack MERN web app that allows patients to book appointments and doctors to manage their availability through a secure portal.',
-    image: doc_dash,
+      'A modern, responsive website for LA Highlights Tour, showcasing premium sightseeing experiences and easy online booking for Los Angeles visitors.',
+    image: latour,
+    liveLink: 'https://www.lahighlightstour.com/', // 🔹 Replace with actual live link
     featured: true,
   },
   {
-    title: 'Crypto Price Tracker',
+    title: 'Cooper & Kid Website',
     description:
-      'A real-time cryptocurrency tracker that displays live coin prices using public APIs',
-    image: crypto1,
+      'A vibrant subscription-box website for families, crafted to deliver story-based, educational adventures for kids and parents.',
+    image: Cooperandkid,
+    liveLink: 'https://cooperandkid.com/', // 🔹 Replace with actual live link
     featured: true,
   },
   {
-    title: 'HealthVault Portal',
+    title: 'Algora Rose Website',
     description:
-      'A secure hospital portal where patients can register and store their personal and medical information for easy access and management.',
-    image: project3,
+      'A vibrant subscription-box website for families, crafted to deliver story-based, educational adventures for kids and parents.',
+    image: Algorarose,
+    liveLink: 'https://algora-rose.vercel.app/', // 🔹 Replace with actual live link
     featured: true,
   },
   {
-    title: 'Online Bakery Store',
+    title: 'MyHome.ie Property Portal',
     description:
-      'A visually appealing bakery website that displays all products with categories, pricing, and responsive design.',
-    image: bakery,
+      'A comprehensive Irish property portal allowing users to browse thousands of homes for sale or rent across Ireland.',
+    image: myhomes,
+    liveLink: 'https://www.myhome.ie/', // 🔹 Replace with actual live link
     featured: true,
   },
   {
-    title: 'Invoice Generator',
+    title: 'Hā Health Wellness Platform',
     description:
-      'A simple web app to create and preview invoices dynamically. Built using React.js and Tailwind CSS with editable fields and clean UI.',
-    image: project5,
+      'A modern, AI-powered wellness platform that delivers personalised lifestyle, nutrition and fitness plans tailored to the user’s goals.',
+    image: health,
+    liveLink: 'https://staging.haahealth.com/', // 🔹 Replace with actual live link
     featured: true,
   },
 ];
@@ -54,13 +57,13 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="projects" className="py-20 px-4 sm:px-2 md:px-12 bg-gray-300">
+    <section id="projects" className="py-8 px-4 sm:px-2 bg-gray-300">
       <div className="text-center mb-16">
         <h2 className="text-3xl font-bold mb-4">Featured Projects</h2>
         <p className="text-gray-800">Some of my best work, showcased cleanly.</p>
       </div>
 
-      <div className="bg-[#1a1a1a] text-white rounded-3xl w-full md:w-[1170px] mx-auto px-4 sm:px-6 md:px-12 py-10 flex flex-col gap-16 md:-ml-8">
+      <div className="bg-[#1a1a1a] text-white rounded-3xl w-full md:w-full mx-auto px-4 sm:px-6 md:px-12 py-10 flex flex-col gap-16 md:mr-6">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -87,13 +90,26 @@ const Portfolio = () => {
               </Link>
               <p className="text-gray-300 leading-relaxed">{project.description}</p>
 
-              <button
-                type="button"
-                onClick={() => handleDetailsClick(index)}
-                className="bg-white text-black px-6 py-1.5 rounded-md hover:bg-gray-800 transition-all cursor-pointer mt-5"
-              >
-                Project Details →
-              </button>
+              <div className="flex flex-wrap items-center gap-4 mt-5">
+                <button
+                  type="button"
+                  onClick={() => handleDetailsClick(index)}
+                  className="bg-white text-black px-6 py-1.5 rounded-md hover:bg-gray-800 hover:text-white transition-all cursor-pointer"
+                >
+                  Project Details →
+                </button>
+
+                {project.liveLink && (
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-transparent border border-white text-white px-6 py-1.5 rounded-md hover:bg-white hover:text-black transition-all cursor-pointer"
+                  >
+                    Live Website
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         ))}

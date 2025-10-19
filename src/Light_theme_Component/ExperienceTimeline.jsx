@@ -2,22 +2,22 @@ import React from "react";
 
 const experiences = [
   {
-    company: "IIFA Tech",
-    role: "MERN Stack Intern",
-    time: "April 2025 – Present",
-    description: "Built full-stack apps with React, Node.js, and MongoDB. Led UI/UX design for invoice tools and dashboards.",
+    company: "Zentix Stack",
+    role: "Senior Software Engineer",
+    time: "Jan 2024 – Present",
+    description: "Led end-to-end software development, mentored junior developers, and implemented advanced technical solutions to enhance product efficiency and reliability.",
   },
   {
-    company: "BM Global",
-    role: "Frontend Intern",
-    time: "Jan 2025 – March 2025",
-    description: "Created responsive user interfaces using React and Tailwind. Collaborated with developers and learned Git workflow.",
+    company: "IIFA Tech Inc.",
+    role: "Software Engineer",
+    time: "Aug 2021 – Dec 2023",
+    description: "Designed, developed, and optimized scalable web applications, focusing on performance, usability, and modern development best practices.",
   },
   {
-    company: "Freelance",
-    role: "Frontend Developer",
-    time: "2023 – Dec 2024",
-    description: "Delivered websites frontend for clients. Built end-to-end features with clean and responsive UI.",
+    company: "BM Global Inc.",
+    role: "Associate Software Engineer",
+    time: "Jan 2021 – Aug 2021",
+    description: "Assisted in developing and maintaining web applications, writing clean, efficient code, and collaborating with senior engineers to deliver quality software solutions.",
   },
 ];
 

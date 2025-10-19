@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import FullPortfolio from './pages/FullPortfolio';
-import ProjectDetail from './components/ProjectDetail';
-import LoaderPage from './pages/LoaderPage';
-import Lighttheme from './pages/lighttheme';
+
+import ProjectDetail from './Light_theme_Component/ProjectDetail';
+
+import Lighttheme from './pages/Lighttheme';
 
 function App() {
   return (
     <Router>
       <Routes>
-         <Route path="/" element={<LoaderPage />} />
-        {/* <Route path="/LPortfolio" element={<FullPortfolio />} /> */}
+         
+       
         <Route path="/project/:id" element={<ProjectDetail />} />
-        <Route path="/portfolio" element={<Lighttheme />} />
+        <Route path="/" element={<Lighttheme />} />
       </Routes>
     </Router>
   );
