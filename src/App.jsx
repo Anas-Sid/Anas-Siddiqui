@@ -9,8 +9,6 @@ function App() {
   return (
     <Router>
       <Routes>
-
-        {/* <Route path="/LPortfolio" element={<FullPortfolio />} /> */}
         <Route path="/" element={<Navigate to="/portfolio" replace />} />
         <Route path="/project/:id" element={<ProjectDetail />} />
         <Route path="/portfolio" element={<Lighttheme />} />
